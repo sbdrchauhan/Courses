@@ -1,2 +1,0 @@
-# Course Lectures are here.
-
