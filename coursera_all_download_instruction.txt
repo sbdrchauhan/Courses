@@ -1,0 +1,16 @@
+New, Select Terminal and then;
+
+1. Remove the previous archive, if it exists:
+  rm -f ~/workspace.tar.gz && rm  -f ~/work/workspace.tar.gz
+  
+2. Create a zipped archive of your workspace directory: 
+  tar -czf ~/workspace.tar.gz ~/work
+  
+3. Move the archive into the workspace directory so you can see it:
+  mv ~/workspace.tar.gz ~/work/workspace.tar.gz
+  
+  
+Once done, click to Jupyter logo and select workspace.tar.gz and then download it.
+
+
+Thanks!
