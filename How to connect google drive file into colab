@@ -1,0 +1,10 @@
+# loading the files from google drive
+from google.colab import drive
+drive.mount('/content/drive')
+
+
+
+And then,
+
+fruits = pd.read_table('drive/My Drive/Data/fruit_data_with_colors.txt')
+print(fruits)
